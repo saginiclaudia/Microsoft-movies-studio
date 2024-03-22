@@ -1,5 +1,5 @@
 # Microsoft-movies-studio
-![Movie studio](studio.jpg)
+![Movie studio](images/studio.jpg)
 ## Author: Claudia Sagini
 
 ## Overview
@@ -46,8 +46,7 @@ The analysis commenced with data cleaning and preprocessing using Python and lib
 Missing values were handled by imputation or removal, while outliers were identified and addressed using statistical techniques. Duplicates were also removed to ensure data integrity.
 For example, to handle missing values, the following code was used:
 
-```tmdb_df.dropna(inplace=True)
-```
+```tmdb_df.dropna(inplace=True)```
 
 ### Descriptive Analysis: 
 * Descriptive statistics, data visualization, and correlation analysis were conducted to explore the dataset's characteristics. Matplotlib and Seaborn were utilized for visualizations, enabling the creation of histograms, scatter plots, and heatmaps to understand the distribution and relationships between variables. For instance, to create a histogram of vote counts:
@@ -66,13 +65,19 @@ plt.show()
 ## Results
 
 ### Distribution of Vote Counts: 
-The distribution of vote counts is right-skewed, indicating that most movies have lower vote counts, with a few outliers receiving significantly higher votes, suggesting varying audience engagement. ![Distribution of vote counts](Distribution of vote counts.png)
+The distribution of vote counts is right-skewed, indicating that most movies have lower vote counts, with a few outliers receiving significantly higher votes, suggesting varying audience engagement.
+
+![Distribution of vote counts](images/Distribution of vote counts.png)
 
 ### Distribution of Popularity Scores: 
-Popularity scores show variability, with a long tail indicating highly popular movies. This suggests that certain movies attract significantly more attention from audiences than others. ![Distribution of popularity](Distribution of popularity.png)
+Popularity scores show variability, with a long tail indicating highly popular movies. This suggests that certain movies attract significantly more attention from audiences than others. 
+
+![Distribution of popularity](images/Distribution of popularity.png)
 
 ### Correlation Analysis: 
-The correlation matrix reveals a moderate positive correlation (0.685) between popularity and vote count, indicating that highly popular movies tend to receive more votes. However, correlations with other variables, like vote average, are relatively weak, suggesting nuanced relationships requiring further exploration. ![Corerelation Analysis](Correlation analysis.png)
+The correlation matrix reveals a moderate positive correlation (0.685) between popularity and vote count, indicating that highly popular movies tend to receive more votes. However, correlations with other variables, like vote average, are relatively weak, suggesting nuanced relationships requiring further exploration. 
+
+![Corerelation Analysis](images/Correlation analysis.png)
 
 ### Interpretation of Results:
 * These findings offer insights into audience engagement and preferences, informing decision-making for Microsoft's movie studio. Understanding vote count and popularity trends helps identify audience behavior, while correlations highlight potential factors influencing movie success.
