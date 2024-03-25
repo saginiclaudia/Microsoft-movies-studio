@@ -67,17 +67,18 @@ plt.show()
 ### Distribution of Vote Counts: 
 The distribution of vote counts is right-skewed, indicating that most movies have lower vote counts, with a few outliers receiving significantly higher votes, suggesting varying audience engagement.
 
-![Distribution of vote counts](images/Distribution_of_vote_counts.png)
+![Distribution of vote counts](https://github.com/saginiclaudia/Microsoft-movies-studio/assets/162452370/3c587559-3259-4e62-b5f5-d26a8cb8cc22)
+
 
 ### Distribution of Popularity Scores: 
 Popularity scores show variability, with a long tail indicating highly popular movies. This suggests that certain movies attract significantly more attention from audiences than others. 
 
-![Distribution of Population](images/Distribution of Population.png)
+![Distribution of popularity](https://github.com/saginiclaudia/Microsoft-movies-studio/assets/162452370/4b7b594d-2b81-4882-845e-5a5d4087a0d6)
 
 ### Correlation Analysis: 
 The correlation matrix reveals a moderate positive correlation (0.685) between popularity and vote count, indicating that highly popular movies tend to receive more votes. However, correlations with other variables, like vote average, are relatively weak, suggesting nuanced relationships requiring further exploration. 
 
-![Correlation Analysis](images/Correlation_analysis.png)
+![Correlation analysis](https://github.com/saginiclaudia/Microsoft-movies-studio/assets/162452370/e74f3e40-5da3-4e8a-9732-d377dc6bb008)
 
 ### Interpretation of Results:
 * These findings offer insights into audience engagement and preferences, informing decision-making for Microsoft's movie studio. Understanding vote count and popularity trends helps identify audience behavior, while correlations highlight potential factors influencing movie success.
